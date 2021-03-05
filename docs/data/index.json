@@ -1,28 +1,28 @@
 {
-   "title":"This is the title of the project",
+   "title":"Identifying Keywords in Legal Articles using Machine Learning Techniques",
    "team":[
       {
-         "name":"Team Member Name 1",
-         "email":"email@eng.pdn.ac.lk",
-         "eNumber":"E/yy/xxx",
-         "github_profile":"#",
-         "linkedin_profile":"#",
+         "name":"Kshithija Dilhani",
+         "email":"e15077@eng.pdn.ac.lk",
+         "eNumber":"E/15/077",
+         "github_profile":"https://github.com/kshithi",
+         "linkedin_profile":"https://www.linkedin.com/in/kshithija-wanniaarachchi-945925176/",
          "researchgate_profile":"#"
       },
       {
-         "name":"Team Member Name 2",
-         "email":"email@eng.pdn.ac.lk",
-         "eNumber":"E/yy/xxx",
-         "github_profile":"#",
-         "linkedin_profile":"#",
+         "name":"Ishani Maduwanthi",
+         "email":"e15211@eng.pdn.ac.lk",
+         "eNumber":"E/15/211",
+         "github_profile":"https://github.com/ishaniMadhuwanthi",
+         "linkedin_profile":"https://www.linkedin.com/in/ishani-madhuwanthi-03268515a/",
          "researchgate_profile":"#"
       },
       {
-         "name":"Team Member Name 3",
-         "email":"email@eng.pdn.ac.lk",
-         "eNumber":"E/yy/xxx",
-         "github_profile":"#",
-         "linkedin_profile":"#",
+         "name":"Wathsari Samindani",
+         "email":"e15279@eng.pdn.ac.lk",
+         "eNumber":"E/15/279",
+         "github_profile":"https://github.com/wathsariPremathilaka",
+         "linkedin_profile":"",
          "researchgate_profile":"#"
       }
    ],
