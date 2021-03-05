@@ -2,17 +2,17 @@
 
 ## Description
 
-This is a short desciption of the project. This section should be around 3 sentences.
+In Sri Lanka, it is vital need to implement a system to extract key information from legal document. This research is focused on how to mine basic information from legal documents and how to apply machine learning techniques to extract keywords from documents.
 
 ## Team Members
-1. E/15/001 Student Name [[Website](http://www.ce.pdn.ac.lk/e15-batch/), [Email](mailto:e5001@ce.pdn.ac.lk)]
-2. E/15/002 Student Name [[Website](http://www.ce.pdn.ac.lk/e15-batch/), [Email](mailto:e5001@ce.pdn.ac.lk)]
-3. E/15/003 Student Name [[Website](http://www.ce.pdn.ac.lk/e15-batch/), [Email](mailto:e5001@ce.pdn.ac.lk)]
+1. E/15/077 Kshithija Dilhani  [[kshithija.dilhani@gmail.com](mailto:e15077@eng.pdn.ac.lk)]
+2. E/15/211 Ishani Madhuwanthi [[ishmadhuwanthi@gmail.com](mailto:e15211@eng.pdn.ac.lk)]
+3. E/15/279 Wathsari Samindani [[wathsami95@gmail.come](mailto:e15279@eng.pdn.ac.lk)]
 
 
 ## Supervisors
-1. Prof. Staff Name [[Website](http://www.ce.pdn.ac.lk/academic-staff/), [Email](mailto:lecturer@ce.pdn.ac.lk)]
-2. Dr. Satff Name [[Website](http://www.ce.pdn.ac.lk/academic-staff/), [Email](mailto:lecturer@ce.pdn.ac.lk)]
+1. Dr. Janaka Alawatugoda [[alawatugoda@eng.pdn.ac.lk](mailto:alawatugoda@eng.pdn.ac.lk)]
+2. Dr. Damayanthi Herath [[damayanthiherath@eng.pdn.ac.lk](mailto:damayanthiherath@eng.pdn.ac.lk)]
 
 
 ## Links
