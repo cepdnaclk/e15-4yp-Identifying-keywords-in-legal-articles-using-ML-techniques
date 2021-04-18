@@ -23,8 +23,8 @@ In Sri Lanka, it is vital need to implement a system to extract key information 
 
 
 ## Publications
-1. [Semester 7 report](https://cepdnaclk.github.io/e15-4yp-minimal-template)
-2. [Semester 7 sldies](https://cepdnaclk.github.io/e15-4yp-minimal-template)
-3. [Semester 8 report](https://cepdnaclk.github.io/e15-4yp-minimal-template)
-4. [Semester 8 slides](https://cepdnaclk.github.io/e15-4yp-minimal-template)
+1. [Semester 7 report](https://github.com/cepdnaclk/e15-4yp-Identifying-keywords-in-legal-articles-using-ML-techniques/blob/main/FYP_Report.pdf)
+2. [Semester 7 sldies](https://github.com/cepdnaclk/e15-4yp-Identifying-keywords-in-legal-articles-using-ML-techniques/blob/main/Identifying%20Keywords%20in%20Legal%20Articles%20using%20ML%20Techniques_Group01.pdf)
+3. [Semester 8 report](https://github.com/cepdnaclk/e15-4yp-Identifying-keywords-in-legal-articles-using-ML-techniques/blob/main/Identifying%20Keywords%20in%20Legal%20Articles%20using%20Machine%20Learning%20Techniques_Group01.pdf)
+4. [Semester 8 slides](https://github.com/cepdnaclk/e15-4yp-Identifying-keywords-in-legal-articles-using-ML-techniques/blob/main/Identifying%20Keywords%20in%20Legal%20Articles%20using%20ML%20Techniques_Group01_presentation.pdf)
 5. Author1, Author2 and Author2 "Research paper title" in Conference name 2021. [Download PDF ](https://cepdnaclk.github.io/e15-4yp-minimal-template)
