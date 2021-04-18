@@ -7,7 +7,13 @@
     <h1>Identifying Keywords in Legal Articles using Machine Learning Techniques</h1>
     
     <h3>Abstract</h3>
-    <p>Write the absitact here</p>
+    <p>This paper presents a survey of strategies and approaches for keyword extraction task. The paper provides an in depth review of existing analysis, additionally to the organisation of strategies. Related work on keyword extraction is concerned for supervised and unsupervised learning strategies.
+
+    Nowadays there are plenty of legal documents offered in electronic format. Therefore, legal scholars and professionals are in need of systems able to search and quantify connotative details of those documents. Legitimate information and customary laws are generally offered in raw form and onerous to know, since they are not in organized form. All legitimate information is nowadays processed since the legal information gets generated often in a large volume due to the rise of law courts. The objective of this analysis is to explore an associate economical way to implement an algorithm to identify keywords by predicting the connectedness of legal documents from an enormous classification system which is difficult to do manually. <br>
+
+    The system to analyze this legal knowledge will serve effectively for lawyers and law students, which might address a lawyer’s role and may even become powerful to unleash such a task in future. Designers  of such systems face  a key challenge  that the bulk of those documents are  in natural language streams which are  lacking formal structure or different specific linguistics information. During this analysis, we tend to describe associate unsupervised learning approach for automatically distinguishing necessary details in each legal document.<br>
+
+    The machine learning and deep learning algorithms based mostly analysis systems apply these strategies in the main for document classification. Legal document classification, translation, account, data obtention are part of the goals obtained from this research. During this study, we tend to review the various strategies of deep learning employed in legal tasks like Legal knowledge search, Legal document analytics, and Legal perspective interface. Through this review, we tend to instituted that machine learning models are giving advanced performance.</p>
     
     <h3>Everything from README.md</h3>
     The information that was added to README.md should be added here as well.<br>
@@ -20,10 +26,44 @@
     </ul>
     
     <h3>Introduction</h3>
+    
+    <p>Keywords are considered as important parameters in a given context. For example people, places, words, or ideas that provides the idea of the relevant context. In this research,  legal documents are used to obtain keywords, and thus the keyword is expected to convey a considerable idea of the  legal document. Then, the key is the quality measuring parameter, which represents the importance of the given context.</p>
+    <p>Keywords can be single word or multi-word keywords, which is known as key phrases. Phrases can be made by combining words together , and they usually generate a new meaning which is not related to the meaning given by single keywords. Therefore, if we take only single words as keywords, then , it would sometimes miss the significant things in the document.</p>
+    <p>There are two factors considered in the process of identifying keywords. First, if  a word is more frequently occurs in the document, then it can take as a keyword. And second, if  a word is more frequently  occurs in a speech,it has a less chance to take as a keyword of any document. According to the second factor the words that very frequently use in a speech, such as prepositions, conjunctions or  common nouns, cannot be considered as keywords.</p>
+    <h4>What is keyword extraction?</h4>
+    <p>Keyword extraction is one of the text analysis methods, extract the most important words in the document and express the idea of it. It helps to get a summarizing of  the content of the document. A keyword is a important unique word that convey whole idea of a document,or a word which is used to find information when studying legal cases. They can express approximately the overall idea of the document. Keywords are also called as ‘Search Queries’, since they are the words or phrases that people use when they are searching. Keywords are important since they provide the connection between what people search for and what system they have.When there are thousands of documents, keyword extraction helps to find the best matching document for our purpose. Keywords may be considered as a summary for a document which lead to have information extraction, or  to categorize a document collection. However, in our case , there are relatively few documents keywords are assigned. Therefore finding methods to automate the assignment is important thing in legal context.</p>
+    <br>
+    <p>Reading legal documents is a very difficult task and sometimes it needs some domain knowledge related to that document. And also it is hard to read the full legal document without missing the key important sentences and it is a very time consuming task. With an increasing number of legal documents it would be convenient to get the essential information from the document without having to go through the whole document. Hence manual extraction of keywords is slow, expensive and prone to mistakes. </p>
+    <br><p>Finding database and e-Resource that provide legal and legislative information is vital need for lawyers in Sri Lanka.There are current implementations but those systems does not come up with efficient solution.There also manual work is costly.We need to reduce man work from the beginning of the portal.To implement user friendly and a system which learn itself to categorize documents the keyword extraction is essential. Also part of this research important information is mined. Therefore, many algorithms and systems for automatic keyword extraction have been proposed in the recent past. Those experiments are the basic background for this  project. </p>
+    
     <h3>Methodology</h3>
+    
+    <p>Website will contain judgements, statutes and various other content. We need an intelligent system, which can identify those.
+For that, when go through the documents, We found that there are set of special words and  phrases surrounding the previous judgment.<br>
+      
+      By referring set of documents, we found that there are some patterns in each document. Those can be a single word, phrase or a preposition like here,
+ <b>the case of, vide, held, the judgement of, in </b>
+that have been used to introduce previous judgements. 
+Those patterns will precede and follow with the name of the statutes also.  We will be able to develop a comprehensive list of words that precede and follow the names of judgements. <br>
+    When we are doing this project, We have used  Black’s laws online legal dictionary to identify the key concepts in the judgments, because we should understand how judgments are published and what are the key concepts
+
+Developing a comprehensive list of word patterns precede and follow the wanted informations because in machine learning, the algorithm should be able to identify and extract the details.
+<br> And also there are words, which are unique for the particular document. Those words do not refer any previous judgment, legal document or lawyer name.Those are called keywords.To extract keywords we used TF-IDF method and Text Rank method </p>
+    
+    
+
     <h3>Experiment Setup and Implementation</h3>
+    
+    To extract keywords,we used two different algorithms as TF-IDF method and Text Rank method.Bsically we used python language and libraries related to algorithm. For the experiment we took two diffrent formats such as NLR and suprime court doucuments. For the project we used 50 documents from NLR and 25 documents from suprime court documets. Also by using TF-IDF method we extracted five keywords from each document and Text Rank method we extracted 10 keywords from each documet.
     <h3>Results and Analysis</h3>
+    
+    <p>We could identify the above mentioned key information for a given document. When considering keyword extraction results, TF-IDF Method table shows that TF-IDF methods shows 0.4347 accuracy for NLR documents and 0.5666 accuracy for supreme court documents. Text-Rank Method table results shows the number of correctly and wrongly identified keywords accordingly. With respect to that the NLR data-set has achieved 0. 3742 accuracy and supreme court data-set has achieved 0. 3960 accuracy. <br>
+    To evaluate the results we had to use manual method because its not like assigning keywords to other documents, legal documents have different context and assigning keywords need prior knowledge for legal documents. When it comes to automate the keyword extraction, therefore we had to do evaluation by manually.<p>
+
     <h3>Conclusion</h3>
+    <p>The goal of this research is to discover answers on the questions of keyword identifying process of legal domain, especially, legal documents vary  from others. It is considered about what are the things that make a legal document unique, which features important most in each document, if the formation is important in the applicable prediction, and what mechanisms work best for applicable prediction in the legal domain.
+    <br> During the experiments on data, some ideas on enhancement of the relevance prediction were proposed. Our plan was to implement a method searching documents using a single keyword or keyword phrase. There are still chances for additional improvements , which might rapidly accelerate and simplify lawyer’s work.Expectantly, this research will help everyone who are involved in the legal domain  and software developers in coming-up decisions to obtain these improvements.\\Besides the analysis, a concurring result of the research was additionally the process of making a system that uses the discussed methods and is integrated with Lawciter which is an E-discovery system. The system conferred all documents of law cases. If the user testing , confirms  quality and usability  of the add-ons, it will come  the finishing deliverance.
+    </p>
 
   </body>
 </html>
